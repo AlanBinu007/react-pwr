@@ -1,7 +1,7 @@
 {
-  "name": "portexe-react-pwr",
+  "name": "react-password-validator",
   "version": "1.0.0",
-  "description": "A simple react component that accepts a list of password requirements and updates each as they are fulfilled",
+  "description": "A simple react component that accept password and validate it for more easy useage",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c"
   },
-  "author": "Zackery Wilson",
+  "author": "Alan Binu",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -33,5 +33,20 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benawad/tsconfig.json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benawad/tsconfig.json/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "master"
+    ]
+  },
+  "homepage": "https://github.com/benawad/tsconfig.json#readme",
   "dependencies": {}
 }
